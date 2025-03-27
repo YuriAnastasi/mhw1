@@ -1,0 +1,413 @@
+body {
+    margin: 0px;
+    background-image: url(sfondo.png);
+}
+
+navbar {
+    background-color: #282828;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+section {
+    background-color: #1A1A1A;
+    height: 1500px;
+    margin: 200px 150px 0px;
+}
+
+footer {
+    background-color: #1A1A1A;
+    height: 400px;
+    margin: 0px 150px;
+}
+
+#flex-containerlogo {
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+#flex-containericone {
+    height: 50px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemicona {
+    font-family: Helvetica;
+    color: white;
+}
+
+#flex-contaiermenu {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-containericona {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+#flex-containericona2 {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.flex-lines {
+    height: 2px;
+    width: 15px;
+    background-color: red;
+    margin: 3px;
+}
+
+#flex-containerarticoli {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+}
+
+.flex-itemarticolo {
+    background-color: black;
+    color: white;
+    font-family: Oswald;
+    width: 33.3%;
+    height: 300px;
+    font-size: 90%;
+}
+
+.flex-itemarticolo strong {
+    padding-left: 10px;
+}
+
+#flex-containernotizie {
+    display: flex;
+    width: 33.3%;
+    height: 600px;
+    flex-direction: column;
+}
+
+#flex-containernotizia {
+    display: flex;
+    width: 100%;
+    height: 98.5px;
+}
+
+.flex-itemnotiziaimmagine {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.flex-itemnotiziatesto {
+    width: 60%;
+    color: white;
+    font-size: 75%;
+    font-family: Helvetica;
+}
+
+.flex-itemcontorno {
+    border: 1px solid gray;
+}
+
+.flex-itemgiochiattesititolo {
+    height: 25px;
+    font-family: Helvetica;
+    color: red;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#flex-containergiochiattesi {
+    display: flex;
+    width: 33.3%;
+    height: 600px;
+    flex-direction: column;
+}
+
+.flex-itemgiochiattesi1 {
+    background-image: url(gioco1.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 115px;
+    z-index: 2;
+}
+
+.flex-itemgiochiattesi2 {
+    background-image: url(gioco2.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 115px;
+    z-index: 2;
+}
+
+.flex-itemgiochiattesi3 {
+    background-image: url(gioco3.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 115px;
+    z-index: 2;
+}
+
+.flex-itemgiochiattesi4 {
+    background-image: url(gioco4.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 115px;
+    z-index: 2;
+}
+
+.flex-itemgiochiattesi5 {
+    background-image: url(gioco5.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 115px;
+    z-index: 2;
+}
+
+.flex-itemgiochiattesi1 strong {
+    color: white;
+    font-family: Helvetica;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flex-itemgiochiattesi2 strong {
+    color: white;
+    font-family: Helvetica;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flex-itemgiochiattesi3 strong {
+    color: white;
+    font-family: Helvetica;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flex-itemgiochiattesi4 strong {
+    color: white;
+    font-family: Helvetica;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flex-itemgiochiattesi5 strong {
+    color: white;
+    font-family: Helvetica;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+strong em {
+    color: red;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#flex-containerrecensioniesegnalaproblemi {
+    display: flex;
+    width: 33.3%;
+    height: 600px;
+    flex-direction: column;
+}
+
+#flex-containerrecensioni {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+
+#flex-containerrecensionitesto {
+    display: flex;
+    width: 100%;
+    height: 16.6%;
+}
+
+.flex-itemrecensionitesto {
+    width: 80%;
+    font-size: 95%;
+    font-family: Helvetica;
+    color: white;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.flex-itemrecensioni {
+    font-family: Helvetica;
+    font-size: 100%;
+    color: red;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.flex-itemvoto {
+    width: 20%;
+    font-family: Helvetica;
+    color: red;
+    font-size: 200%;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+
+#flex-containersegnalaproblema {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}
+
+.flex-itemsegnalaproblema {
+    width: 100%;
+    height: 20%;
+    font-family: Helvetica;
+    color: red;
+    background-color: #181818;
+    font-size: 80%;
+    padding-top: 10px;
+}
+
+.flex-itemsegnalaproblema em {
+    color: gray;
+}
+
+.flex-itemscriviproblema {
+    width: 100%;
+    height: 60%;
+    font-family: Helvetica;
+    color: gray;
+    background-color: #323232;
+    padding-top: 5px;
+}
+
+.flex-iteminviaproblema {
+    width: 100%;
+    height: 20%;
+    font-family: Helvetica;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#flex-containerinformazioni {
+    display: flex;
+    height: 400px;
+}
+
+.flex-itemloghi {
+    width: 60%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.flex-itemdescrizione {
+    color: white;
+    font-family: Helvetica;
+    width: 100%;
+}
+
+.flex-itemcontorno2 {
+    border: 1px solid red;
+}
+
+a:hover {
+    background-color: red;
+}
+
+@media (max-width: 500px) {
+    navbar {
+        top: 0px;
+    }
+
+    section {
+        height: 3300px;
+        margin: 0px 0px 0px;
+    }
+
+    footer {
+        height: 580px;
+        margin: 0px 0px 0px;
+    }
+
+    #flex-containericona {
+        display: none;
+    }
+
+    .flex-itemarticolo {
+        width: 100%;
+    }
+
+    .flex-itemarticolo strong {
+        padding-left: 10px;
+    }
+
+    #flex-containergiochiattesi {
+        display: none;
+    }
+
+    #flex-containerrecensioni {
+        display: none;
+    }
+
+    #flex-containersegnalaproblema {
+        display: none;
+    }
+
+    #flex-containernotizie {
+        width: 100%;
+    }
+
+    #flex-containernotizia {
+        width: 100%;
+    }
+
+    #flex-containerinformazioni {
+        display: inline-block;
+        height: 400px;
+    }
+
+    .flex-itemloghi {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .flex-itemdescrizione {
+        font-size: 70%;
+        text-align: center;
+    }
+}
